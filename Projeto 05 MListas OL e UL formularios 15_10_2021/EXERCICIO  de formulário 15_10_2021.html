@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        h1{text-align: center;}
+        table{margin: auto;}
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <table frame="box" width='830px'>
+        <tr>
+            <td colspan="2" rowspan=""><b>Dados Pessoais:</b></td>
+        </tr>
+        <tr>
+            <td style="text-align: right;" width='180px'>Nome do aluno:</td>
+            <td><input  placeholder="Digite seu nome" type="text" name="Nome" id="" size="40"></td>
+            
+        </tr>
+        <tr>
+            <td style="text-align: right;">Data de nascimento</td>
+            <td><input placeholder="Dia" type="text" name="Nome" id="" size="1" maxlength="2"> / <input placeholder="Mês" type="text" name="Mês" id="Mês" size="1" maxlength="2"> / <input placeholder="Ano" type="text" name="Ano" id="Ano" size="1" maxlength="4"></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right;">Nome da Mãe</td>
+            <td><input placeholder="Digite o nome da sua mãe" type="text" name="Nome da mãe" id="" size="40"></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right;">Nome do Pai:</td>
+            <td><input placeholder="Digite nome do seu pai" type="text" name="Nome da mãe" id="" size="40"></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right;">Telefone DDD</td>
+            <td><input placeholder="numero do DDD" type="number" name="Numero de telefone" id="numero" size="40"> Tel: (<input placeholder="Numero do telefone" type="number" name="Numero do telefone" id="" size="40"> )
+                Ramal: <input placeholder="Numero do ramal" type="number" name="Numero do ramal" id="" size="40"></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right;">Email:</td>
+            <td><input placeholder="Digite seu email" type="email" size="40"></td>
+        </tr>
+
+    </table>
+
+    <table frame="box" width='830px'>
+        <tr>
+            <td colspan="3"><b>Informações da matricula:</b></td>
+        </tr>
+
+        <tr>
+            <td>Série</td>
+            <td style="width: 90px;">Turno</td>
+            <td>Atividades Extracurriculares</td>
+        </tr>
+
+        <tr>
+            <td><select name="option" id="escolar">
+                <option value="">pré escolar</option>
+                <option value="">Ensino fundamental</option>
+                <option value="">Ensino médio</option>
+                <option value="">Ensino Superior</option>
+            </select>
+        </td>
+
+            <td><input type="radio" name="turno" id="turno">Manhã</td>
+            <td>Informática</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><input type="radio" name="turno" id="turno">Tarde</td>
+            <td>Musica</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Ballet</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Pintura</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Judô</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Futebol</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Enviar">  </td>
+            <td><input type="submit" value="Limpar campos"></td>
+        </tr>
+    </table>
+</body>
+</html>

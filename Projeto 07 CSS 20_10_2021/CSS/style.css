@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+img{
+    width: 640px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    height: 390px;
+    
+}
+td{
+    color: white;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+    width: 1300px;
+    height: 800px;
+    margin-top: 20px;
+}
+
+.nome{
+    background-color: lightblue;
+}
+
+.nome2{
+    background-color: chartreuse;
+}
+
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+.corfundo{
+    background-color: blue;
+}
+
+.classe{
+    background-color: green;
+}

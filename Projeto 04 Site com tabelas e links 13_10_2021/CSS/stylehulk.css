@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+table.cima{
+    text-align: center;
+    font: normal 18pt Arial;
+    color: black;
+    width: 100%;
+    height: 650px;
+    font-size: 18pt;
+    
+}
+
+table.baixo{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, serif;
+    font-size: 18pt;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 55px;
+    text-decoration: underline;
+}
+body{
+    background-image: linear-gradient(90deg, lightgreen, green); 
+    border-radius: 20px;   
+}
+
+img{
+    border-radius: 30px;
+}
+
+table td:hover{
+    color: black;
+    background-color: green;
+    text-shadow: 1px 1px 1px black;
+    font: bold 21pt Arial;
+    text-decoration: underline;
+}
+
+iframe{
+    margin-left: 600px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+

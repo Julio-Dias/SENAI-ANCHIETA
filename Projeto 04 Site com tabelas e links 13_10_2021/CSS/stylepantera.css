@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+table{
+    text-align: center;
+    font: normal 20pt Arial;
+    color: black;
+}
+
+td{
+    color: white;
+}   
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 60px;
+}
+body{
+    background-image: linear-gradient(90deg,black, indigo, purple);
+    }
+
+table td:hover{
+    color: black;
+    background-color: white;
+    text-shadow: 1px 1px 1px black;
+    font: bold 21pt Arial;
+    text-decoration: underline;
+}
+
+iframe{
+    margin-left: 650px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+
+img{
+    margin: -150px;
+    padding: 0;
+    width: 410px;
+    border-radius: 30px;
+
+}

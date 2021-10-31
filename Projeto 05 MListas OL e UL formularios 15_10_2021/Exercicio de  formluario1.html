@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            margin-top: 12px;
+        }
+        select{
+            margin-top: 12px;
+        }
+        textarea{
+            margin-top: 12px;
+            size: 40;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 12pt;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario</h1>
+    Nome<input placeholder="Digite seu nome" type="text" name="nome" id="nome"> <br>
+    
+    Email<input placeholder="Digite seu email" type="email" name="nome" id="nome"> <br>
+
+    Idade<select name="Idade" id="">
+        <option value="">18</option>
+        <option value="">17</option>
+        <option value="">16</option>
+        <option value="">15</option>
+        <option value="">14</option>
+        <option value="">13</option>
+        <option value="">12</option>
+        <option value="">11</option>
+        <option value="">10</option>
+    </select>
+
+    <p>Sexo</p> 
+    M<input type="radio" name="sexo" id="sexo"> F <input type="radio" name="sexo" id="sexo">
+    <br>
+    Tipo de navegador utilizado: <br>
+    Google chrome<input type="checkbox" name="" id="">
+    Internet explorer<input type="checkbox" name="" id="">
+    Firefox<input type="checkbox" name="" id="">
+    Safari<input type="checkbox" name="" id="">
+    Outros<input type="checkbox" name="" id=""> 
+    
+    <p>Mensagem: </p>
+
+    <textarea placeholder="Digite sua mensagem aqui..." name="Digite sua mensagem aqui" id="" cols="100" rows="10"></textarea> <br>
+
+    <input type="submit" value="Enviar">
+    <input type="submit" value="Limpar">
+</body>
+</html>

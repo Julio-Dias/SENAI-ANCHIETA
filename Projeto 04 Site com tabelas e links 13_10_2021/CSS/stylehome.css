@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+table{
+    text-align: center;
+    font: normal 18pt Arial;
+    color: black;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 70px;
+}
+body{
+    background-image: url(channels4_profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 30px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+table td:hover{
+    color: black;
+    background-color: white;
+    text-shadow: 1px 1px 1px black;
+    font: bold 21pt Arial;
+    text-decoration: underline;
+    border-radius: 20px;
+}
+
+iframe{
+    margin-left: 650px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.homemferro{
+    height: 220px;
+    margin: -100px;
+}
+
+table.cima{
+    width: 100%;
+    height: 162px;
+    border: 1;
+}
+
+table.baixo{
+    width: 100%;
+    height: 325px;
+    border: 1;
+}

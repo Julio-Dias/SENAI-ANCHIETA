@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        table{
+            margin: auto
+            ;}
+
+        h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+div a{
+             text-align: center;
+             font-family: Georgia, 'Times New Roman', Times, serif;
+             font-size: 18pt;
+             width: 340px;
+             border-radius:30px;
+             margin-left: 800px;
+             margin-top: 20px;
+             text-decoration: none;
+             
+         }
+
+         div a:hover{
+            text-decoration: underline;
+            background-color: white;
+            color: black;
+            text-align: center;
+            transition: 2s;
+            text-shadow: 2px 2px 5px black;
+        }
+            
+    </style>
+</head>
+<body>
+    <h1>Formulário da matrícula</h1>
+    <h2>Dynamic Fitness&Wellness</h2>
+    <table  width='830px'>
+        <tr>
+            <td colspan="2" rowspan=""><b>Dados Pessoais:</b></td>
+        </tr>
+        <tr>
+            <td style="text-align: right;" width='180px'>Nome do aluno:</td>
+            <td><input  placeholder="Digite seu nome" type="text" name="Nome" id="" size="40"></td>
+            
+        </tr>
+        <tr>
+            <td style="text-align: right;">Data de nascimento</td>
+            <td><input placeholder="Dia" type="text" name="Nome" id="" size="1" maxlength="2"> / <input placeholder="Mês" type="text" name="Mês" id="Mês" size="1" maxlength="2"> / <input placeholder="Ano" type="text" name="Ano" id="Ano" size="1" maxlength="4"></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right;">Peso : </td>
+            <td><input placeholder="Digite seu peso" type="text" name="Peso" id="" size="40"> kg</td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right;">Altura :</td>
+            <td><input placeholder="Digite sua altura" type="text" name="Nome da mãe" id="" size="40"> m</td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right;">Telefone DDD</td>
+            <td><input placeholder="numero do DDD" type="number" name="Numero de telefone" id="numero" size="40"> Tel: (<input placeholder="Numero do telefone" type="number" name="Numero do telefone" id="" size="40"> )
+                Ramal: <input placeholder="Numero do ramal" type="number" name="Numero do ramal" id="" size="40"></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right;">Email:</td>
+            <td><input placeholder="Digite seu email" type="email" size="40"></td>
+        </tr>
+
+    </table>
+
+    <table width='830px'>
+        <tr>
+            <td colspan="3" height='45'><b>Informações da matricula:</b></td>
+        </tr>
+
+        <tr>
+            <td width='300px'><u><b>Modalides da academia</b></u></td>
+            <td style="width: 90px;">Turno</td>
+            <td><b>Modalidades opcionais</b></td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox" name="" id=""> Musculação</td>
+            <td><input type="radio" name="turno" id="turno">Manhã</td>
+            <td><input type="checkbox" name="" id=""> Natação</td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox" name="" id=""> Esteira</td>
+            <td><input type="radio" name="turno" id="turno">Tarde</td>
+            <td><input type="checkbox" name="" id="">Judô</td>
+        </tr>
+        <tr>
+            <td> <input type="checkbox" name="" id="">Maquina de Biceps</td>
+            <td></td>
+            <td><input type="checkbox" name="" id="">Karatê</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="" id="">Barra guiada</td>
+            <td>Sexo</td>
+            <td><input type="checkbox" name="" id=""> Capoeira</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="" id=""> Abdominal convergente</td>
+            <td><input type="radio" name="x" id="x">Masculino</td>
+            <td><input type="checkbox" name="" id=""> Judô</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><input type="radio" name="x" id="x">Feminino</td>
+            <td><input type="checkbox" name="" id=""> Crossfit</td>
+        </tr>
+
+        <tr>
+            <td height='60'></td>
+            <td style="text-align: center;"><input type="submit" value="Enviar">  </td>
+            <td><input type="submit" value="Limpar campos"></td>
+        </tr>
+    </table>
+
+    <div><a href="Home.html">Voltar Para Pagina principal</a></div>
+
+    <footer>
+        &copy; Dynamic Fitness&Wellness
+    </footer>
+
+</body>
+</html>
