@@ -1,0 +1,30 @@
+<html>
+<body>
+
+<h2>Página com Java Script do Robson Lindo</h2>
+Digite um número<input id="entrada1"> <br>
+<button id="bt1" onclick="condicao()">OK</button>
+<p id="demo">Robson é...</p>
+<script>
+
+function condicao(){
+
+var num1=parseInt(document.getElementById('entrada1').value);
+var text="";
+
+ 	if(num1>=10) {
+ 		text="Prof. Robson Lindo";
+ 	}
+ 	else{
+ 		text="Prof. Robson Maravilhoso";
+ 	}
+
+document.getElementById("demo").innerHTML = text;
+}
+
+</script>
+</body>
+</html>
+
+
+

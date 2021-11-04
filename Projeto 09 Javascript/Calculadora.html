@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body style="text-align: center;">
+    <h2 style="text-align: center;">Calculadora</h2>
+    Digite um número: <input type="number" name="entrada1" id="entrada1">
+    Digite um número: <input type="number" name="entrada2" id="entrada2"> <br>
+
+    <br>
+     <button id="BT1" onclick="condicao0()">+</button>
+
+     <button id="BT1" onclick="condicao1()">-</button>
+
+    <button id="BT1" onclick="condicao2()">*</button>
+
+    <button id="BT1" onclick="condicao3()">/</button>
+
+    <p id="demo">O valor é de...</p>
+
+    <script>
+        
+
+        function condicao0(){
+            var num1= Number(document.getElementById('entrada1').value);
+            var num2= Number(document.getElementById('entrada2').value);
+
+            var soma = num1 + num2
+
+            window.document.getElementById('demo').innerHTML = `O valor é de... ${soma}`
+        }
+
+        function condicao1(){
+            var num1= Number(document.getElementById('entrada1').value);
+            var num2= Number(document.getElementById('entrada2').value);
+
+            var menos = num1 - num2
+
+            window.document.getElementById('demo').innerHTML = `O valor é de... ${menos}`
+        }
+
+        function condicao2(){
+            var num1= Number(document.getElementById('entrada1').value);
+            var num2= Number(document.getElementById('entrada2').value);
+
+            var multiplica = num1 * num2
+
+            window.document.getElementById('demo').innerHTML = `O valor é de... ${multiplica}`
+        }
+        
+        function condicao3(){
+            var num1= Number(document.getElementById('entrada1').value);
+            var num2= Number(document.getElementById('entrada2').value);
+
+            var divide = num1 / num2
+
+            window.document.getElementById('demo').innerHTML = `O valor é de... ${divide}`
+        }
+    </script>
+</body>
+</html>
