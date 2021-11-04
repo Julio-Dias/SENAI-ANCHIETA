@@ -47,3 +47,11 @@ p#cliquec{
     padding-bottom: 20px;
     color: yellow;
 }
+
+#demo:hover{
+    text-decoration: underline;
+}
+
+#treino:hover{
+    text-decoration: underline;
+}
