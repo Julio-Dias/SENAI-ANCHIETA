@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Introjavascript.css">
-    <title>Document</title>
+    <title>Introdução do Javascript</title>
 </head>
 <body>
     <h1>Introdução ao Javascript</h1>
     <p id="demo">!</p>
     <p id="treino">!</p>
     <button onclick="teste1()">Clique aqui!</button> 
-    <button onclick="reset()">Reset!</button> 
+    <button onclick="reset()">Reset!</button> <br> <hr>
 
-    
+    <p id="cliquea">A</p>
+    <p id="cliqueb">B</p>
+    <p id="cliquec">C</p>
+
+    <button  onclick="cliqueA()">Botão A</button>
+    <button onclick="cliqueB()">Botão B</button>
+    <button onclick="cliqueC()">Botão C</button>
+
     <script>
+
         function teste1(){
 
         document.getElementById('demo').innerHTML = 'Hello JavaScript!';
@@ -27,6 +35,25 @@
         document.getElementById('demo').innerHTML = '!';
         window.document.getElementById('treino').innerHTML = '!'
 
+        }
+
+        function cliqueA(){
+            window.document.getElementById('cliquea').innerHTML = 'Julio A'
+            window.document.getElementById('cliqueb').innerHTML = ''
+            window.document.getElementById('cliquec').innerHTML = ''
+        }
+
+        function cliqueB(){
+            window.document.getElementById('cliqueb').innerHTML = 'Julio B'
+            window.document.getElementById('cliquea').innerHTML = ''
+            window.document.getElementById('cliquec').innerHTML = ''
+            
+        }
+
+        function cliqueC(){
+            window.document.getElementById('cliquec').innerHTML = 'Julio C'
+            window.document.getElementById('cliquea').innerHTML = ''
+            window.document.getElementById('cliqueb').innerHTML = ''
         }
         
     </script>

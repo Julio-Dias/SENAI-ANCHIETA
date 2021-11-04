@@ -26,3 +26,25 @@ button{
     color: black;
     font-weight: bold;
 }
+
+button:hover{
+    color: magenta;
+}
+
+p#cliquea{
+    margin: 0px;
+    padding-bottom: 20px;
+    color: red;
+}
+
+p#cliqueb{
+    margin: 0px;
+    padding-bottom: 20px;
+    color: magenta;
+}
+
+p#cliquec{
+    margin: 0px;
+    padding-bottom: 20px;
+    color: yellow;
+}
