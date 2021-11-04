@@ -8,6 +8,7 @@
     <title>Introdução do Javascript</title>
 </head>
 <body>
+
     <h1>Introdução ao Javascript</h1>
     <p id="demo">!</p>
     <p id="treino">!</p>
@@ -21,6 +22,7 @@
     <button  onclick="cliqueA()">Botão A</button>
     <button onclick="cliqueB()">Botão B</button>
     <button onclick="cliqueC()">Botão C</button>
+    <button onclick="Reset2()">Reset de Animação!</button>
 
     <script>
 
@@ -38,22 +40,28 @@
         }
 
         function cliqueA(){
-            window.document.getElementById('cliquea').innerHTML = 'Julio A'
+            window.document.getElementById('cliquea').innerHTML = 'Animação A'
             window.document.getElementById('cliqueb').innerHTML = ''
             window.document.getElementById('cliquec').innerHTML = ''
         }
 
         function cliqueB(){
-            window.document.getElementById('cliqueb').innerHTML = 'Julio B'
+            window.document.getElementById('cliqueb').innerHTML = 'Animação B'
             window.document.getElementById('cliquea').innerHTML = ''
             window.document.getElementById('cliquec').innerHTML = ''
             
         }
 
         function cliqueC(){
-            window.document.getElementById('cliquec').innerHTML = 'Julio C'
+            window.document.getElementById('cliquec').innerHTML = 'Animação C'
             window.document.getElementById('cliquea').innerHTML = ''
             window.document.getElementById('cliqueb').innerHTML = ''
+        }
+
+        function Reset2(){
+            window.document.getElementById('cliquea').innerHTML = '' 
+            window.document.getElementById('cliqueb').innerHTML = '' 
+            window.document.getElementById('cliquec').innerHTML = '' 
         }
         
     </script>
