@@ -10,13 +10,17 @@
 <body>
     <h2>Aula 02 JavaScript</h2>
     Escreva: <input type="text" name="txt" id="txt">
-    <p id="treino">Vale a pena se esforçar todos os dias!</p>
-    <button onclick="acionar()">Clique aqui!</button>
+    <p id="treino">Rascunho!</p>
+    <button id="bt1" onclick="acionar()">Clique aqui!</button>
 
     <script>
         function acionar(){
-            
+            var1 = window.document.getElementById('txt').value
+            window.document.getElementById('treino').innerHTML = var1
         }
+
+        window.document.getElementById('treino').innerHTML = ''
+
     </script>
 </body>
 </html>

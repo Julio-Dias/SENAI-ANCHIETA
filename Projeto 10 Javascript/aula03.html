@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Aula03.css">
+    <title>Aula 03 JavaScript</title>
+</head>
+<body>
+    <h1>Aula 03 JavaScript</h1>
+    <input type="text" id="entrada1"> <br>
+    <button id=bt1 onclick="acao()">Clique aqui!</button>
+    <p id="res">Resposta...</p>
+
+    <script>
+        function acao(){
+            var num1 = Number(window.document.getElementById('entrada1').value)
+            var text = " "
+
+            if(num1 >= 7){
+                text = "Aprovado!"
+            }else{
+                text = "Reprovado!"
+            }
+
+            window.document.getElementById('res').innerHTML = text
+            
+        }
+    </script>
+</body>
+</html>
