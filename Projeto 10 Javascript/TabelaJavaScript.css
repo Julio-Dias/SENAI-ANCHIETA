@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    font-size: 46px;
+}
+
+body{
+    background-color: honeydew;
+}
+
+table{
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+td{
+    border: 1px solid black;
+}
+
+input{
+    margin-top: 20px;
+}
+
+.fundo{
+    background-color: #0000ff;
+}
+
+.fundo1{
+    background-color: yellow;
+}
+.fundo2{
+    background-color: pink;
+}
+.fundo3{
+    background-color: orange;
+}
+.fundo4{
+    background-color: white;
+}
+
+

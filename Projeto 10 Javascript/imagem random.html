@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Randomimage.css">
+    <style>
+        #demo{
+            margin-bottom: -200px;
+            float: left;
+            margin-left: 100px;
+        }
+        #treino{
+            margin-bottom: -200px;
+            float: left;
+            margin-left: 50px;
+        }
+        #x{
+            margin-bottom: -200px;
+            float: left;
+            margin-left: 50px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagen aleatória</h1>
+    <p>Aperte o botão!</p>
+    <button onclick="acionar()">OK</button>
+    <p id=demo></p>
+    <p id=treino></p>
+    <p id=x></p>
+
+    <script>
+        function acionar(){
+            var valor1 = Math.floor((Math.random()*4)+1)
+            var valor2 = Math.floor((Math.random()*4)+1)
+            var valor3 = Math.floor((Math.random()*4)+1)
+            var foto1 = document.getElementById('demo')
+            var foto2 = document.getElementById('treino')
+            var foto3 = document.getElementById('x')
+
+            if(valor1 == 1){
+                foto1.className = 'caixa1' 
+                foto3.className = 'caixa1' 
+            }
+            if(valor1 == 2){
+                foto1.className = 'caixa2'  
+            }
+            if(valor1 == 3){
+                foto1.className = 'caixa3' 
+                foto3.className = 'caixa3' 
+            }
+            if(valor1 == 4){
+                foto1.className = 'caixa4' 
+                foto3.className = 'caixa4' 
+            }
+
+            if(valor2 == 1){
+                foto2.className = 'box1' 
+            }
+            if(valor2 == 2){
+                foto2.className = 'box2'  
+            }
+            if(valor2 == 3){
+                foto2.className = 'box3' 
+            }
+            if(valor2 == 4){
+                foto1.className = 'box4' 
+            }
+
+            if ((valor1 == valor2 && valor2==valor3)){
+                'Parabêns'
+            }
+        }
+    </script>
+</body>
+</html>

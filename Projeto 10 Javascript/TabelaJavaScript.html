@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TabelaJavaScript.css">
+    <title>TabelaJavaScript</title>
+</head>
+<body id="corpo">
+
+    <h1>Tabela com JavaScript</h1>
+
+    <p>Escreva com número e clique OK:</p>
+    <input type="number" name="id1" id="id1">
+    <button id="bt1" onclick="myFunction()">OK</button>
+    <br>
+    <p>Julio</p>
+    <p id="demo">!</p>
+    <br>
+    
+    <table>
+        <tr>
+            <td>1</td>
+            <td id="cel">2</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <input type="number" name="id2" id="id2">
+    <button id="id2" onclick="myFunction2()">OK</button>
+    <table>
+        <tr>
+            <td id="td1">1</td>
+            <td id="td2">2</td>
+        </tr>
+
+        <tr>
+            <td id="td3">3</td>
+            <td id="td4">4</td>
+        </tr>
+    </table>
+
+    <script>
+        function acionar(){
+            var obj = window.document.getElementById('corpo')
+            var objbt = window.document.getElementById('bt')
+            var objcel1 = window.document.getElementById('cel')
+
+            var txt = ''
+
+            var a = Number(window.document.getElementById('id1').value)
+
+            if (a<10) {
+                txt = "Value to small"
+                obj.className = 'fundo'
+                objbt.className = 'fundo1'
+                objbtcel1.className = 'fundo1'
+            }else{
+                txt = 'Julio'
+                obj.className = 'fundo1'
+                objbr.className = 'fundo'
+                objbtcel1.className = 'fundo'
+            }
+        }
+
+        window.document.getElementById("demo").innerHTML = txt
+
+        function myFunction2(){
+            var a = window.document.getElementById('td1')
+            var b = window.document.getElementById('td2')
+            var c = window.document.getElementById('td3')
+            var d = window.document.getElementById('td4')
+
+            var valor = Number(window.document.getElementById('id2').value)
+            if(valor == 1){
+                a.className = 'fundo'
+                b.className = 'fundo4'
+                c.className = 'fundo4'
+                d.className = 'fundo4'
+            }
+            if(valor == 2){
+                b.className = 'fundo1'
+            }
+            if(valor == 3){
+                c.className = 'fundo2'
+            }
+            if(valor == 4){
+                d.className = 'fundo3'
+                c.className = 'fundo4'
+                b.className = 'fundo4'
+                a.className = 'fundo4'
+            }
+            if(window.document.getElementById('id2').value > 4)
+            {
+                a.className = 'fundo4'
+                b.className = 'fundo4'
+                c.className = 'fundo4'
+                d.className = 'fundo4'
+            }
+
+        }
+    </script>
+</body>
+</html>
