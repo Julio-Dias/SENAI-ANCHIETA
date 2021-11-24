@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mohave:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="bodystyle">
+    <h1 id="name_page">Arcane - O dia em que a Riot acertou!</h1>
+    <hr />
+    <div id="header">
+      <button id="custom1" class="normal_text" onclick="function1()">
+        Arcane
+      </button>
+      <button id="custom1" class="normal_text" onclick="function2()">
+        Harry Potter
+      </button>
+      <button class="normal_text" onclick="function3()">Naruto</button>
+    </div>
+
+    <main>
+      <div id="box1">
+        <p id="quote" class="special_text">
+          "Três armas é igual a nunca ter que pedir desculpas! Haha."
+        </p>
+      </div>
+      <div id="box2" class="img1"></div>
+    </main>
+
+    <script>
+      function function1() {
+        var mybackground = document.getElementById('bodystyle')
+        mybackground.className = 'background1'
+        document.getElementById('name_page').innerHTML =
+          'Arcane - O dia em que a Riot acertou!'
+        document.getElementById('quote').innerHTML =
+          '"Três armas é igual a nunca ter que pedir desculpas! Haha."'
+        var image = document.getElementById('box2')
+        image.className = 'img1'
+      }
+
+      function function2() {
+        var mybackground = document.getElementById('bodystyle')
+        mybackground.className = 'background2'
+        document.getElementById('name_page').innerHTML =
+          'Harry Potter: Atemporal'
+        document.getElementById('quote').innerHTML =
+          '“Não são nossas habilidades que mostram quem realmente somos, são as nossas escolhas.”'
+        var image = document.getElementById('box2')
+        image.className = 'img2'
+      }
+
+      function function3() {
+        var mybackground = document.getElementById('bodystyle')
+        mybackground.className = 'background3'
+        document.getElementById('name_page').innerHTML =
+          'O Naruto pode ser um pouco duro às vezes'
+        document.getElementById('quote').innerHTML =
+          'Se você não gosta do seu destino, não o aceite. Em vez disso, tenha a coragem de mudá-lo do jeito que você quer que ele seja.'
+        var image = document.getElementById('box2')
+        image.className = 'img3'
+      }
+    </script>
+  </body>
+</html>

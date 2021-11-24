@@ -1,0 +1,97 @@
+h1{
+    margin-left: 200px;
+    font-family: Exo;
+  
+  }
+  
+  body{
+    background-color: blueviolet;
+  }
+  
+  main{
+    width: 910px;
+    margin-top: 70px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  
+  button{
+    border-radius: 4px;
+    background: linear-gradient(145deg, #8847b4, #4986a3);
+    color: white
+  }
+  
+  .normal_text{
+    font-size: 18px;
+    font-family: Mohave;
+  }
+  
+  .second_text{
+    font-size: 20px;
+    font-family: Exo;
+    margin-top: 25px;
+  }
+  
+  .special_text{
+    font-size: 30px;
+    font-family: Exo;
+    font-weight: bold;
+    color: rgb(116, 12, 43);
+  }
+  
+  #header{
+    margin-left: 320px;
+  }
+  
+  #box1{
+    background-image: linear-gradient(145deg, #decad6, #ffffff);
+    width: 700px;
+    height: 220px;
+    border-radius: 40px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #box2{
+    width: 490px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin: 20px auto auto auto;
+    border-radius: 10px;
+  }
+  
+  .background1{
+    background-image: url(img/background.jpg)
+    
+}
+ 
+  
+  .background2{
+    background-image: url(img/background2.jpg);
+    
+  }
+  
+  .background3{
+    background-image: url(img/wallpapersden.com_naruto-uzumaki-minimalist_wxl.jpg);
+    
+  }
+  
+  .img1{
+    background-image: url(img/200.gif);
+    background-repeat: no-repeat;
+  }
+  
+  .img2{
+    background-image: url(img/tumblr_inline_mvb93vmBNV1rlpk9c540.gif);
+    background-repeat: no-repeat;
+  }
+  
+  .img3{
+    background-image: url(img/Naruto-Gifs-naruto-31676170-500-254.gif.opdownload);
+    background-repeat: no-repeat;
+  }
